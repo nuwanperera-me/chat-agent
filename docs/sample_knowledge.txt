@@ -1,0 +1,31 @@
+# RAG System Knowledge Base
+
+This is a sample document for the RAG (Retrieval Augmented Generation) system.
+
+## What is RAG?
+
+RAG stands for Retrieval Augmented Generation. It's a technique that enhances large language models by retrieving relevant information from external knowledge sources before generating a response. This approach combines the strengths of retrieval-based and generation-based methods.
+
+Benefits of RAG include:
+- More accurate and factual responses
+- Reduced hallucinations
+- Access to domain-specific knowledge
+- Ability to reference up-to-date information
+
+## How RAG Works
+
+1. The user query is processed
+2. Relevant documents are retrieved from a vector database
+3. Retrieved documents are combined with the original query
+4. The language model generates a response based on both the query and retrieved information
+
+## Use Cases
+
+RAG is particularly useful for:
+- Question answering systems
+- Customer support chatbots
+- Research assistants
+- Documentation search tools
+- Knowledge management systems
+
+This sample document demonstrates how the RAG system can retrieve and use information from documents stored in the docs directory.
